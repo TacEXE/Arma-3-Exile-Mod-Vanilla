@@ -678,8 +678,8 @@ class CfgSettings
 	};
 	class Time
 	{
-		useRealTime = 1;
-		useStaticTime = 0;
-		staticTime[] = {1900,0,0,0,0};
+		useRealTime = 0;
+		useStaticTime = 1;
+		staticTime[] = {2015,7,3,17,00};
 	};
 };
