@@ -651,7 +651,7 @@ class CfgSettings
 		};
 		class Cloudy
 		{
-			fogValue = 0.2;
+			fogValue = 0.1;
 			fogDecay = 0.1;
 			fogBase = 5;
 			overcast = 0.4;
@@ -664,15 +664,15 @@ class CfgSettings
 		};
 		class Thunderstorm
 		{
-			fogValue = 0.7;
+			fogValue = 0.2;
 			fogDecay = 0.2;
 			fogBase = 5;
 			overcast = 1;
 			waves = 1;
 			wind = 1;
 			gusts = 1;
-			rain = 1;
-			lightnings = 1;
+			rain = 0.2;
+			lightnings = 0.5;
 			rainbows = 0.5;
 		};
 	};
@@ -680,6 +680,6 @@ class CfgSettings
 	{
 		useRealTime = 0;
 		useStaticTime = 1;
-		staticTime[] = {2015,7,3,17,00};
+		staticTime[] = {2015,7,3,16,00};
 	};
 };
